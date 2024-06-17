@@ -29,7 +29,7 @@ def ParseArgs():
 	parser.add_argument('--sampling_noise', type=bool, default=False)
 	parser.add_argument('--sampling_steps', type=int, default=0)
 
-	parser.add_argument('--rebuild_k', type=int, default=5)
+	parser.add_argument('--rebuild_k', type=int, default=1)
 	parser.add_argument('--e_loss', type=float, default=0.1)
 	parser.add_argument('--ris_lambda', type=float, default=0.5)
 	parser.add_argument('--ris_adj_lambda', type=float, default=0.2)

@@ -15,9 +15,11 @@ We develop our codes in the following environment:
 - torch==1.11.0
 - scipy==1.9.1
 
-## 📚 Datasets
+## 🎯 Experimental Results
 
-<img src="./figures/dataset.png" style="zoom:11%;" />
+Performance comparison of baselines on different datasets in terms of Recall@20, NDCG@20 and Precision@20:
+
+<img src="./figures/performance.png" style="zoom:100%;" />
 
 ## 🚀 How to run the codes
 
@@ -76,11 +78,9 @@ python Main.py --data sports --reg 1e-6 --ssl_reg 1e-2 --temp 0.1 --ris_lambda 0
     └── README.md
 ```
 
-## 🎯 Experimental Results
+## 📚 Datasets
 
-Performance comparison of baselines on different datasets in terms of Recall@20, NDCG@20 and Precision@20:
-
-<img src="./figures/performance.png" style="zoom:100%;" />
+<img src="./figures/dataset.png" style="zoom:100%;" />
 
 ## 🌟 Citation
 

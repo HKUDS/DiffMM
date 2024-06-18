@@ -1,8 +1,8 @@
 # DiffMM: Multi-Modal Diffusion Model for Recommendation
 
-This is the PyTorch implementation for **DiffMM** proposed in the paper **DiffMM: Multi-Modal Diffusion Model for Recommendation**. 
+This is the PyTorch implementation for **DiffMM** proposed in the paper [**DiffMM: Multi-Modal Diffusion Model for Recommendation**](https://arxiv.org/abs/2406.11781). 
 
-![](./figures/model.png)
+<img src="./figures/model.png" style="zoom:100%;" />
 
 In this paper, we propose DiffMM, a new multi-modal recommendation model that enriches the probabilistic diffusion paradigm by incorporating modality awareness. Our approach utilizes a multi-modal graph diffusion model to reconstruct a comprehensive user-item graph, while harnessing the advantages of a cross-modal data augmen- tation module that provides valuable self-supervision signals. To assess the effectiveness of DiffMM, we conducted extensive experi- ments, comparing it to several competitive baselines. The results unequivocally establish the superiority of our approach in terms of recommendation performance, firmly establishing its efficacy.
 
@@ -17,7 +17,7 @@ We develop our codes in the following environment:
 
 ## 📚 Datasets
 
-![](./figures/dataset.png)
+<img src="./figures/dataset.png" style="zoom:11%;" />
 
 ## 🚀 How to run the codes
 
@@ -80,4 +80,8 @@ python Main.py --data sports --reg 1e-6 --ssl_reg 1e-2 --temp 0.1 --ris_lambda 0
 
 Performance comparison of baselines on different datasets in terms of Recall@20, NDCG@20 and Precision@20:
 
-![](./figures/performance.png)
+<img src="./figures/performance.png" style="zoom:100%;" />
+
+## 🌟 Citation
+
+If you find this work helpful to your research, please kindly consider citing our paper.

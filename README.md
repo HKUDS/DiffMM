@@ -58,9 +58,9 @@ python Main.py --data sports --reg 1e-6 --ssl_reg 1e-2 --temp 0.1 --ris_lambda 0
 │   ├── TimeLogger.py
 │   └── Utils.py
 ├── figures
-│   ├── model.pdf
-│   ├── dataset.pdf
-│   └── performance.pdf
+│   ├── model.png
+│   ├── dataset.png
+│   └── performance.png
 └── Datasets
     ├── tiktok
     │   ├── trnMat.pkl

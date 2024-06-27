@@ -58,9 +58,9 @@ python Main.py --data sports --reg 1e-6 --ssl_reg 1e-2 --temp 0.1 --ris_lambda 0
 │   ├── TimeLogger.py
 │   └── Utils.py
 ├── figures
-│		├── model.pdf
-│		├── dataset.pdf
-│		└── performance.pdf
+│   ├── model.pdf
+│   ├── dataset.pdf
+│   └── performance.pdf
 └── Datasets
     ├── tiktok
     │   ├── trnMat.pkl
@@ -85,3 +85,13 @@ python Main.py --data sports --reg 1e-6 --ssl_reg 1e-2 --temp 0.1 --ris_lambda 0
 ## 🌟 Citation
 
 If you find this work helpful to your research, please kindly consider citing our paper.
+
+```
+@article{jiang2024diffmm,
+  title={DiffMM: Multi-Modal Diffusion Model for Recommendation},
+  author={Jiang, Yangqin and Xia, Lianghao and Wei, Wei and Luo, Da and Lin, Kangyi and Huang, Chao},
+  journal={arXiv preprint arXiv:2406.11781},
+  year={2024}
+}
+```
+

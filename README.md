@@ -23,7 +23,7 @@ Performance comparison of baselines on different datasets in terms of Recall@20,
 
 ## 🚀 How to run the codes
 
-The command lines to train DiffKG on the three datasets are as below. The un-specified hyperparameters in the commands are set as default.
+The command lines to train DiffMM on the three datasets are as below. The un-specified hyperparameters in the commands are set as default.
 
 **! If you want to run the codes on baby or sports dataset, please firstly follow the instrcution in ./Datasets** 
 
